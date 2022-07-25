@@ -52,7 +52,7 @@ img {
 }
 
 .page-header {
-border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 /* Контейнер */
@@ -94,15 +94,9 @@ border-bottom: 1px solid #ECECEC;
   letter-spacing: 0.02em;
   text-decoration: none;
 
- 
   padding-top: 32px;
   padding-bottom: 32px;
 }
-
-
-
-
-
 
 .site-nav.list .link:hover,
 .site-nav.list .link:focus {
@@ -122,7 +116,6 @@ border-bottom: 1px solid #ECECEC;
   list-style: none;
 }
 
-
 .container-nav {
   display: flex;
   margin-left: auto;
@@ -131,7 +124,6 @@ border-bottom: 1px solid #ECECEC;
 .container-nav .head-info + .head-info {
   margin-left: 50px;
 }
-
 
 .nav-container {
   display: flex;
@@ -146,8 +138,6 @@ border-bottom: 1px solid #ECECEC;
 .site-nav.list .item:not(:last-child) {
   margin-right: 50px;
 }
-
-
 
 /* Секція Нero */
 .hero {
@@ -188,17 +178,15 @@ border-bottom: 1px solid #ECECEC;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 .feature-list > .item {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
-
 }
 
-.feature-list >.item:nth-child(4n) {
-  margin-right: 0; 
+.feature-list > .item:nth-child(4n) {
+  margin-right: 0;
 }
 
 /* Секція чим ми займаємось */
@@ -210,13 +198,12 @@ border-bottom: 1px solid #ECECEC;
   letter-spacing: 0.03em;
 }
 
-.feature-list >.items {
+.feature-list > .items {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
-
 }
 
-.feature-list >.items:nth-child(3n) {
+.feature-list > .items:nth-child(3n) {
   margin-right: 0;
 }
 
@@ -248,17 +235,18 @@ border-bottom: 1px solid #ECECEC;
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
 }
- 
+
 .team-list > .team-list-items:nth-child(4n) {
   margin-right: 0;
 }
 
 .team-content {
-  background: #FFFFFF;
-   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .title {
   margin-bottom: 10px;
@@ -305,7 +293,7 @@ border-bottom: 1px solid #ECECEC;
 }
 .list-information:last-child {
   margin-bottom: 0px;
-padding-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-items:focus,
@@ -354,12 +342,10 @@ padding-bottom: 60px;
 
 .portfolio-content {
   padding: 20px 24px;
-  background: #FFFFFF;
-  border-left: 1px solid #EEEEEE;
-  border-right: 1px solid #EEEEEE;
-  border-bottom: 1px solid #EEEEEE;
-
-  
+  background: #ffffff;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 /* Кнопки */
 
@@ -388,7 +374,6 @@ padding-bottom: 60px;
   padding: 6px 22px;
 }
 
-
 .filtr .filtr-btn.curent {
   background-color: var(--acent-color);
 }
@@ -397,5 +382,3 @@ padding-bottom: 60px;
 .filtr-btn:hover {
   color: var(--acent-color);
 }
-
-
