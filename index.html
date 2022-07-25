@@ -11,60 +11,69 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Шапка -->
     <header class="page-header">
-      <nav>
+    <div class="container nav-container">
+      
         <a href="./index.html" class="logo">
           <span class="logo-web">Web</span
           ><span class="logo-studio">Studio</span></a
         >
-
+      <nav class="nav-container">
         <ul class="site-nav list">
-          <li><a href="./index.html" class="link curent">Студия</a></li>
-          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
+          <li class="item"><a href="./index.html" class="link curent">Студия</a></li>
+          <li class="item"><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li class="item"><a href="" class="link">Контакты</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com" class="head-info"
+      <ul class="container-nav">
+      <a  href="mailto:info@devstudio.com" class="head-info"
         >info@devstudio.com</a
       >
-      <a href="tel:+380961111111" class="head-info">+38 096 111 11 11</a>
+      <a  href="tel:+380961111111" class="head-info">+38 096 111 11 11</a>
+      </ul>
+      </div>
+  
     </header>
     <main>
       <!-- Герой -->
+      
       <section class="hero">
         <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
         <button type="button" class="btn">Заказать услугу</button>
       </section>
+     
       <!-- Особливості -->
       <section class="section">
+        <div class="container">
         <h2 hidden class="section-title">Особенности</h2>
         <ul class="feature-list">
-          <li>
+          <li class="item">
             <h3 class="title">Внимание к деталям</h3>
             <p>
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
+          <li class="item">
             <h3 class="title">Пунктуальность</h3>
             <p>
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="item"> 
             <h3 class="title">Планирование</h3>
             <p>
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
+          <li class="item">
             <h3 class="title">Современные технологии</h3>
             <p>
               Значимость этих проблем настолько очевидна, что реализация
@@ -72,12 +81,14 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <!-- Чим ми займаємось -->
-      <section class="section">
+      <section class="section section-no-pading">
+        <div class="container">
         <h2 class="section-title">Чем мы занимаемся</h2>
         <ul class="feature-list">
-          <li>
+          <li class="items">
             <img
               src="./image/work/img-1.jpg"
               alt="Создания сайтов"
@@ -85,7 +96,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="items">
             <img
               src="./image/work/img-2.jpg"
               alt="Создания приложений"
@@ -93,7 +104,7 @@
               height="294"
             />
           </li>
-          <li>
+          <li class="items">
             <img
               src="./image/work/img-3.jpg"
               alt="Создания веб-дизайна"
@@ -102,56 +113,68 @@
             />
           </li>
         </ul>
+        </div>
       </section>
       <!-- Наша команда -->
       <section class="section team">
+        <div class="container">
         <h2 class="section-title">Наша команда</h2>
         <ul class="team-list">
-          <li>
+          <li class="team-list-items">
             <img
               src="./image/team/img-1.jpg"
               alt="Фото продакт-дизайнера"
               width="270"
               height="260"
             />
+            <div class="team-content">
             <h3 class="title">Игорь Демьяненко</h3>
             <p class="team-list-item">Product Designer</p>
+            </div>
           </li>
-          <li>
+          <li class="team-list-items">
             <img
               src="./image/team/img-2.jpg"
               alt="Фото разработчика"
               width="270"
               height="260"
             />
+            <div class="team-content">
             <h3 class="title">Ольга Репина</h3>
             <p class="team-list-item">Frontend Developer</p>
+            </div>
           </li>
-          <li>
+          <li class="team-list-items">
             <img
               src="./image/team/img-3.jpg"
               alt="Фото маркетолога"
               width="270"
               height="260"
             />
+            <div class="team-content">
             <h3 class="title">Николай Тарасов</h3>
             <p class="team-list-item">Marketing</p>
+            </div>
           </li>
-          <li>
+          <li class="team-list-items">
             <img
               src="./image/team/img-4.jpg"
               alt="Фото веб-дизайнера"
               width="270"
               height="260"
             />
+            <div class="team-content">
             <h3 class="title">Михаил Ермаков</h3>
             <p class="team-list-item">UI Designer</p>
+            </div>
           </li>
         </ul>
+        </div>
       </section>
     </main>
     <!-- Футер -->
     <footer class="footer">
+      <div class="container">
       <a href="./index.html" class="logo">
         <span class="logo-web">Web</span
         ><span class="logo-studio-footer">Studio</span></a
@@ -179,6 +202,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
