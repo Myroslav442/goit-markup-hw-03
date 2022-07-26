@@ -74,8 +74,6 @@ img {
   text-decoration: none;
 
   display: inline-block;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 .logo-web {
   color: var(--acent-color);
@@ -144,9 +142,7 @@ img {
   background-color: var(--second-back-color);
   text-align: center;
   padding-top: 200px;
-  padding-left: 452px;
-  padding-right: 452px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 .hero-title {
   color: var(--white-color);
@@ -277,6 +273,8 @@ img {
 
 .footer {
   background-color: var(--second-back-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .list-information .footer-items {
   color: rgba(255, 255, 255, 0.6);
@@ -288,12 +286,13 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.footer-items {
+
+.list-information .list-information-items:not(:last-child) {
   margin-bottom: 9px;
 }
-.list-information:last-child {
-  margin-bottom: 0px;
-  padding-bottom: 60px;
+
+.footer-items.white {
+  color: var(--white-color);
 }
 
 .footer-items:focus,
@@ -309,14 +308,15 @@ img {
 
 .footer .logo {
   display: inline-block;
-  padding-top: 60px;
   margin-bottom: 20px;
 }
 
+
+
 /* Портфоліо роботи */
+
 .work-list {
   list-style: none;
-  padding-bottom: 94px;
 }
 .work-list .title {
   color: var(--title-color);
@@ -347,6 +347,12 @@ img {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
+
+
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 /* Кнопки */
 
 .filtr {
@@ -355,7 +361,6 @@ img {
 
   list-style: none;
   margin-bottom: 50px;
-  padding-top: 94px;
   gap: 8px;
 }
 
